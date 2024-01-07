@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="weatherindex.css">
+</head>
+<body>
+    <div class="mdiv">
+        <div class="weather_app">
+            <h2 align="center">WEATHER FORECAST</h2>
+            <div class="ip">
+                <input type="text" id="userText">
+                <button onclick="getWeatherData()">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/user-interface/search-icon.png" alt="search-icon" class="search">
+                </button>
+            </div>
+            <div class="info" align="center">
+                <img src="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" alt="weather" class="weather_img">
+                <h1 id="temp">27°C</h1>
+                <h2 id="city">PUNE</h2>
+            </div>
+
+            <div class="info2">
+
+                <div class="humidity">
+                    <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png" alt="humidity" class="humi">
+                    <h3>HUMIDITY</h3>
+                    <h4 id="humidity_info">50%</h4>
+                </div>
+
+                <div class="wind">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1185/1185449.png" alt="humidity" class="humi">
+                    <h3>WIND</h3>
+                    <h4 id="wind_info">4km/h</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weatherindex.js"></script>
+</body>
+</html>
